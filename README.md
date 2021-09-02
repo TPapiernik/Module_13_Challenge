@@ -2,6 +2,8 @@
 
 ## Overview
 
+Project Origination Date: 2021-09-02
+
 ### Purpose
 
 The purpose of this project is to visually show the differences between the
@@ -14,7 +16,8 @@ the boundaries of the Tectonic Plates covering the Earth.
 
 1. Use a URL for GeoJSON earthquake data from the USGS website and retrieve
 geographical coordinates and the magnitudes of earthquakes for the last seven days.
-2. Add the data to a map
+2. Retrieve Tectonic Plate Boundaries in GeoJSON Format
+3. Add the data to a map
 
 ### Approach
 
@@ -40,6 +43,12 @@ request and create interactivity for the earthquake data.
 	- USGS GeoJSON Summary Feed, All Earthquakes of the Past 7 Days
 		- Imported directly via d3.json JavaScript
 		- URL: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson
+		- Explanation of Metadata: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+	- `PB2002_boundaries.json`
+		- Origin: *An Updated Digital Model of Plate Boundaries* by Peter Bird (Geochemistry Geophysics Geosystems, 4(3), 1027, [doi:10.1029/2001GC000252](http://scholar.google.se/scholar?cluster=1268723667321132798), 2003)
+		- Converted to ArcGIS Shapefiles by Hugo Ahlenius of Nordpil (http://nordpil.com/) then to GeoJSON by [csterling](https://github.com/csterling)
+		- GitHub Repository: https://github.com/fraxen/tectonicplates
+		- URL: https://github.com/fraxen/tectonicplates/blob/master/GeoJSON/PB2002_boundaries.json
 
 ## Deliverables
 
