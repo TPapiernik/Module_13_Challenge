@@ -40,9 +40,13 @@ request and create interactivity for the earthquake data.
 	- D3.js JavaScript Library loaded from Cloud via HTML
 	- Leaflet.js JavaScript Library loaded from Cloud via HTML
 - Data:
-	- USGS GeoJSON Summary Feed, All Earthquakes of the Past 7 Days
+	- USGS GeoJSON Summary Feed, All Earthquakes of the Past 7 Days (Updated every minute)
 		- Imported directly via d3.json JavaScript
 		- URL: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson
+		- Explanation of Metadata: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+	- USGS GeoJSON Summary Feed, Major Earthquakes (Magnitude > 4.5) of the Past 7 Days (Updated every minute)
+		- Imported directly via d3.json JavaScript
+		- URL: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson
 		- Explanation of Metadata: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
 	- `PB2002_boundaries.json`
 		- Origin: *An Updated Digital Model of Plate Boundaries* by Peter Bird (Geochemistry Geophysics Geosystems, 4(3), 1027, [doi:10.1029/2001GC000252](http://scholar.google.se/scholar?cluster=1268723667321132798), 2003)
@@ -54,14 +58,14 @@ request and create interactivity for the earthquake data.
 
 ### Deliverable 1
 
-
+See `index.html` and `static/js/challenge_logic.js`
 
 ### Deliverable 2
 
-
+See `index.html` and `static/js/challenge_logic.js`
 
 ### Deliverable 3
 
-
+See `index.html` and `static/js/challenge_logic.js`
 
 -- END --
